@@ -1,10 +1,18 @@
+<!DOCTYPE html>
 <html>
   <head>
   	<title>Funpiece</title>
   	<link rel="stylesheet" href="format.css">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
   	<style>
-  		
+      html, body {
+        height: 100%;
+      }
+  		img{
+        height: 10vmax;
+        width: 10vmax;
+        margin:3px;
+      }
   		iframe{
   			width:100%;
   			height:70%;
@@ -13,13 +21,11 @@
   		}
   	</style>
   </head>
-  <body>
-    <header>
-      <div>
-        <img src="strawhat.jpg"  alt="jolly roger strawhat" style="float: left;height: 8vw; border-radius:30%;padding;auto" >
-  	  
-      
-  		   <h1 style="font-family:onepiece; font-weight: bolder;font-size:calc(20px + 1.5vw);clear: right;overflow-y: auto" >
+  <body >
+    <header >
+      <div style="overflow-y: auto" >
+        <img src="strawhat.jpg"  alt="jolly roger strawhat"/>
+  		   <h1 style="font-family:onepiece; font-weight: bolder;font-size:calc(20px + 1.5vw);clear: right;" >
   			    <span style="color:black;">FUNPIECE :</span><br /> 
   		      An effort to incorporate one piece into an website
   		  </h1>
@@ -32,6 +38,7 @@
   			<li><a href="#Story" target="display">Story</a></li>
   			<li><a href="#Map" target="display">Map</a></li>
   			<li><a href="#News" target="display">News</a></li>
+      </ul>
  
   	</nav>
   	<iframe name="display" src="#nothing">Sorry</iframe>
