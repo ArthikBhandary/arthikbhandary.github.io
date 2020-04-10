@@ -19,6 +19,19 @@
   			border: none;
   			
   		}
+      .dropbtn{
+
+      }
+      .show{
+        display:none;
+      }
+      a:hover .spoiler{
+        display:none;
+      }
+      a:hover .show{
+        display:inline;
+        color:black;
+      }
   	</style>
   </head>
   <body >
@@ -34,13 +47,26 @@
   	<nav>
   		<ul>
   			<li><a href="pages/home_page.html" target="display">Home</a></li>
-  			<li><a href="#crew" target="display">Crew</a></li>
+  			<li class="dropdown"><a href="javascript:void(0)" class="dropbtn" target="display">Crew</a>
+          <div class="dropdown-content">
+            <a href="">Luffy</a>
+            <a href="">Zoro</a>
+            <a href="">Nami</a>
+            <a href="">Usopp</a>
+            <a href="">Sanji</a>
+            <a href="">Chopper</a>
+            <a href="">Robin</a>
+            <a href="">Franky</a>
+            <a href="">Brook</a>
+            <a href=""><span class="spoiler" style="color:red">Spoiler</span><span class="show">Jimbei</span></a>
+          </div>
+        </li>
   			<li><a href="#Story" target="display">Story</a></li>
   			<li><a href="#Map" target="display">Map</a></li>
   			<li><a href="#News" target="display">News</a></li>
       </ul>
  
   	</nav>
-  	<iframe name="display" src="pages/home_page.html">Sorry</iframe>
+  	<iframe name="display" src="pages/home_page.html"></iframe>
   </body>
 </html>
