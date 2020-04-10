@@ -3,3 +3,18 @@ body{
   	background-image: url("back.png");
 
 }
+img{
+	float:left;
+	border: 2px solid black;
+	margin:2%;
+	padding:2%;
+}
+div{
+	font-size:x-large;
+	padding:1%;
+
+}
+p{
+	padding:2px;
+	padding-left: 3px;
+}
